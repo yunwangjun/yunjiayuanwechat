@@ -1,0 +1,19 @@
+{
+    "name": "thinkphp/es-demo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "dev@example.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^8.1",
+        "elasticsearch/elasticsearch": "^8.19"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
